@@ -1,5 +1,5 @@
 import axios from "axios"
 const instance=axios.create({
-    baseURL:"https://online-movie-database.p.rapidapi.com/auto-complete ",
+    baseURL:"https://api.themoviedb.org/3/",
 })
 export default instance;

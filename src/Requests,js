@@ -1,1 +1,4 @@
-const API_KEY='33c6336146msh59afd993d49c13fp1d8321jsn77c0'
+const API_KEY='cf6fa28159846f3508cf7ef96e78bee6';
+const requests={
+    fetchTrending:`/trending/movie/day?language=en-US`
+}
