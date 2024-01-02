@@ -1,4 +1,4 @@
 const API_KEY='cf6fa28159846f3508cf7ef96e78bee6';
 const requests={
-    fetchTrending:`/trending/movie/day?language=en-US`
+    fetchTrending:`/trending/movie/week?language=en-US`
 }
