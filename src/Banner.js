@@ -19,7 +19,7 @@ return string?.length>n?string.substr(0,n-1)+'...':string;
         <button className='banner-button'>Play</button>
         <button className='banner-button'>My List</button>
     </div>
-    <h1 className='banner_descreption'>{truncate(`Spend more time on your business growth. Boost your online sales today. Easy Onboarding. Migration Assistance. Voice, Email and Chat Support. Remote Jobs. High Salary. Click To Apply. Apply Now. Jobs Near You. Search Jobs & Apply. Online Work From Home. Get Job Alert. Spend more time on your business growth. Boost your online sales today.
+    <h1 className='banner_descreption'>{truncate(`more time on your business growth. Boost your online sales today. Easy Onboarding. Migration Assistance. Voice, Email and Chat Support. Remote Jobs. High Salary. Click To Apply. Apply Now. Jobs Near You. Search Jobs & Apply. Online Work From Home. Get Job Alert. Spend more time on your business growth. Boost your online sales today.
     ApplySpend more time on your business growth. Boost your online sales today. Easy Onboarding. Migration Assistance. Voice, Email and Chat Support. Remote Jobs. High Salary. Click To Apply. Apply Now. Jobs Near You. Search Jobs & Apply. Online Work From Home. Get Job Alert. ApplySpend more time on your business growth. Boost your online sales today. Easy Onboarding. Migration Assistance. Voice, Email and Chat Support. Remote Jobs. High Salary. Click To Apply. Apply Now. Jobs Near You. Search Jobs & Apply. Online Work From Home. Get Job Alert. Apply`,180)}</h1>
 </div>
 <div className='banner--fadeBottom'>
