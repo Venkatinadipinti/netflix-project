@@ -1,4 +1,4 @@
 const API_KEY='cf6fa28159846f3508cf7ef96e78bee6';
 const requests={
-    fetchTrending:`/trending/movie/week?language=en-US`
+    fetchTrending:`https://api.themoviedb.org/3/discover/movie?include_adult=false&include_video=false&language=en-US&page=1&sort_by=popularity.desc`
 }
