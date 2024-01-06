@@ -4,24 +4,11 @@
 }
 body{
     background-color: black;
+    color:white;
 }
 .app{
     border: 2px solid black;
     margin: 2px;
     padding: 2px;
 }
-.componet{
-    border: 2px solid red;
-    padding: 20px;
-    margin: 2px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-.btn{
-    background-color: black;
-    color:white;
-    padding: 20px;
-    margin: 20px;
-    border-radius:5px;
-}
+ 
