@@ -1,0 +1,63 @@
+.navbar{
+    color:white;
+    font-size: 14px;
+    width: 100%;
+    position: fixed;
+    top:0;
+    z-index:999;
+    background:linear-gradient(to top,transparent 0%,#fff,50%); 
+}
+&.scrolled{
+    background-color: black;
+}
+.container{
+    padding: 0px 50px;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    height:70px;
+    .left{
+        display: flex;
+        align-items: center;
+    img{
+        height:60px;
+        text-align: center;
+        margin-right: 50px;
+    }
+    span{
+        margin-right: 20px;
+        cursor: pointer;
+    }
+}
+.right{
+    display: flex;
+    align-items: center;
+}
+.fa-solid {
+    margin: 15px 15px;
+    cursor: pointer;
+}
+img{
+    border-radius: 5px;
+    object-fit: cover;
+    cursor: pointer;
+}
+.profile{
+    .options{
+        display: none;
+        background-color:black;
+        border-radius: 5px;
+    }
+    span{
+        padding:10px;
+        cursor: pointer;
+    }
+&:hover{
+    .options{
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+    }
+}
+}
+}

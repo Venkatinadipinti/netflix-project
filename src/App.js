@@ -1,17 +1,11 @@
 import React from 'react'
-import './App.css'
-import Home from './pages/Home'
-import NetflixShow from './pages/NetflixShow'
-import { BrowserRouter } from 'react-router-dom'
+import Home from './home/Home'
+import  './App.css'
 const App = () => {
   return (
-    <BrowserRouter>
-     <div className="App">
-  <Home/>
-  <NetflixShow/>
-   </div>
-    </BrowserRouter>
-   
+    < div className='app'>
+      <Home/>
+    </div>
   )
 }
 
