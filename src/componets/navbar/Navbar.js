@@ -11,7 +11,7 @@ const Navbar = () => {
     <div className={isScrolled?'navbar scrolled':'navbar'}>
       <div className='container'>
         <div className='left'>
-<img src="https://www.edigitalagency.com.au/wp-content/uploads/Netflix-logo-red-black-png.png " alt=" "/>
+<img src="https://assets.stickpng.com/images/580b57fcd9996e24bc43c529.png" alt=" "/>
 <span>Home</span>
 <span>Series</span>
 <span>Movies</span>
