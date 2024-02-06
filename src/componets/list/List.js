@@ -23,11 +23,11 @@ if(direction==='left' &&sliderNumber>0){
       <div className='wrapper'>
       <i className="fa-solid fa-chevron-left"  style={{fontSize:'30px',position:'reltive',top:'70%',left:'10px'}}onClick={()=>handleClick('left')}/>
       <div className='container' ref={listRef}>
-        <Listitem/>
-        <Listitem/>
-        <Listitem/>
-        <Listitem/>
-        <Listitem/>
+        <Listitem index={1}/>
+        <Listitem index={2}/>
+        <Listitem index={3}/>
+        <Listitem index={4}/>
+        <Listitem index={5}/>
       </div>
       <i className="fa-solid fa-chevron-right" style={{fontSize:'30px', position:"relative",left:'95%'}}onClick={()=>handleClick('right')}/>
       </div>
